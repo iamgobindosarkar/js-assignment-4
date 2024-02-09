@@ -22,3 +22,9 @@ function checkName(spell){
 function deleteInvalids(remove) {
     return remove.filter(element => typeof element === 'number' && !isNaN(element));
 }
+
+
+function password(information, websiteName){
+    const getPassword = generatePassword(information, websiteName);
+    return getPassword;
+}
